@@ -64,35 +64,33 @@
 									<h1>Partners</h1>
 								</header>
 
-								<div id="map" style="height: 500px;"></div>
-<script>
-    // Initialize map, centered on your location
-    var map = L.map('map').setView([49.2827, -123.1207], 2); // Example: Vancouver, Canada
+								<div id="map" style="height: 350px;"></div> <!-- Reduced height -->
 
-    // Add tile layer (background map)
+<script>
+    var map = L.map('map').setView([49.2827, -123.1207], 2);
+
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         attribution: '&copy; OpenStreetMap contributors'
     }).addTo(map);
 
-    // List of collaborator countries (ISO 3166-1 alpha-3 codes)
-    var collaboratorCountries = ["CAN", "GBR", "USA", "AUS", "FRA"]; // Example countries
+    var collaboratorCountries = ["CAN", "GBR", "USA", "AUS", "FRA"];
 
-    // Load world GeoJSON
     fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
         .then(response => response.json())
         .then(data => {
             L.geoJSON(data, {
                 style: function (feature) {
                     return {
-                        fillColor: collaboratorCountries.includes(feature.id) ? "blue" : "transparent",  
-                        color: "black",
-                        weight: 1,
+                        fillColor: collaboratorCountries.includes(feature.id) ? "blue" : "transparent",
+                        color: "transparent",  // Removes black outline
+                        weight: 0,  // Ensures no border is drawn
                         fillOpacity: 0.5
                     };
                 }
             }).addTo(map);
         });
 </script>
+
 
 								<!-- Blockquote -->
 									<blockquote>This research was made possible through the invaluable support of:</blockquote>
