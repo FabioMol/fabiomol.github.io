@@ -11,6 +11,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+
+		<link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+                <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 	</head>
 
 	<!-- Google tag (gtag.js) -->
@@ -60,6 +63,35 @@
 								<header class="major">
 									<h1>Partners</h1>
 								</header>
+
+								<div id="map" style="height: 500px;"></div>
+<script>
+    // Initialize the map, centered at your location
+    var map = L.map('map').setView([48.1953018837204, 16.383704072582507], 3);
+
+    // Add tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; OpenStreetMap contributors'
+    }).addTo(map);
+
+    // Your location
+    var myLocation = L.marker([48.1953018837204, 16.383704072582507]).addTo(map)
+        .bindPopup("Fabio's Location");
+
+    // Collaborators (Add actual coordinates)
+    var collaborators = [
+        { name: "Te Herenga Waka", coords: [-41.28984858068072, 174.76790123163] },
+        { name: "UBC Okanagan", coords: [49.93956490256488, -119.39478416049324] },
+        { name: "University of Bergen", coords: [60.387969904311895, 5.321776355368886] }
+    ];
+
+    // Add collaborators to map and draw lines
+    collaborators.forEach(collab => {
+        var marker = L.marker(collab.coords).addTo(map)
+            .bindPopup(collab.name);
+        L.polyline([myLocation.getLatLng(), collab.coords], { color: 'blue' }).addTo(map);
+    });
+</script>
 
 								<!-- Blockquote -->
 									<blockquote>This research was made possible through the invaluable support of:</blockquote>
