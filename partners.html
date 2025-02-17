@@ -64,17 +64,21 @@
 									<h1>Partners</h1>
 								</header>
 
-								<div id="map" style="height: 350px;"></div> <!-- Reduced height -->
+								<div id="map" style="height: 5000px; width: 600px; margin: auto;"></div> <!-- Adjusted width -->
 
 <script>
+    // Initialize map centered on your location
     var map = L.map('map').setView([49.2827, -123.1207], 2);
 
-    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '&copy; OpenStreetMap contributors'
+    // Add a free minimalistic tile layer (no borders or labels)
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/light_nolabels/{z}/{x}/{y}{r}.png', {
+        attribution: '&copy; <a href="https://carto.com/">CARTO</a>',
     }).addTo(map);
 
+    // Collaborator countries (ISO 3166-1 alpha-3 codes)
     var collaboratorCountries = ["CAN", "GBR", "USA", "AUS", "FRA"];
 
+    // Load GeoJSON and style the collaborator countries
     fetch("https://raw.githubusercontent.com/johan/world.geo.json/master/countries.geo.json")
         .then(response => response.json())
         .then(data => {
@@ -82,8 +86,8 @@
                 style: function (feature) {
                     return {
                         fillColor: collaboratorCountries.includes(feature.id) ? "blue" : "transparent",
-                        color: "transparent",  // Removes black outline
-                        weight: 0,  // Ensures no border is drawn
+                        color: "transparent", // No outline
+                        weight: 0, // No border
                         fillOpacity: 0.5
                     };
                 }
