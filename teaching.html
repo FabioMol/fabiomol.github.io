@@ -23,14 +23,17 @@
 	</script>
 
 <style>
-        /* On smaller screens (phones & small tablets), make it bigger */
     @media (max-width: 768px) { 
         .responsive-img {
-            width: 100%; /* Expands to full width of the screen */
-            max-width: none; /* No restriction on size */
+            width: 100vw;  /* Use full viewport width */
+            max-width: 100%; /* Prevents it from shrinking */
+            height: auto; /* Keeps aspect ratio */
+            display: block; /* Ensures it's a block element */
+            margin: auto;
         }
     }
 </style>
+
 		
 	</head>
 
