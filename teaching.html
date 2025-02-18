@@ -80,25 +80,39 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
+							<form action="https://docs.google.com/forms/d/e/1FAIpQLSfxNLs0tO1FOPS2fY_-Gazp00onXfofg4Hu-Nai_yx4v7ioTQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    							<div class="fields">
+        							<div class="field">
+           						 <label for="name">Name</label>
+          						  <input type="text" name="entry.300118985" id="name" required />
+       							 </div>
+       							 <div class="field">
+            							<label for="email">Email</label>
+         							   <input type="email" name="entry.1721426725" id="email" required />
+       							 </div>
+      							  <div class="field">
+          							  <label for="message">Message</label>
+           							 <textarea name="entry.1504736209" id="message" rows="3" required></textarea>
+     							   </div>
 								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+							<ul class="actions">
+    							<li><input type="submit" value="Send Message" /></li>
+							</ul>
 							</form>
+
+
+							
+							<!-- Invisible iframe to prevent redirect -->
+							<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+							<!-- JavaScript to Clear the Form After Submission -->
+							<script>
+							document.querySelector("form").addEventListener("submit", function(event) {
+ 							   setTimeout(() => {
+       								 event.target.reset(); // Clears the form after submission
+   								 }, 500); // 0.5s delay to ensure submission goes through
+							});
+							</script>
 						</section>
 						<section class="split contact">
 							<section class="alt">
