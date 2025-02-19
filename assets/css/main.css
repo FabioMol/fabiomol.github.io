@@ -4720,7 +4720,9 @@ input, select, textarea {
     width: 100%;
     overflow: hidden;
     position: relative;
-    height: 40px;
+    min-height: 100px; /* Increase this if needed */
+    display: flex;
+    align-items: center; /* Ensures items are vertically aligned */
 }
 
 .news-item {
@@ -4728,6 +4730,13 @@ input, select, textarea {
     width: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
+    min-height: 100px; /* Ensure enough space for text & image */
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    flex-direction: column; /* Stack text, link, and image vertically */
+    text-align: center;
+    padding: 10px;
 }
 
 .news-item.active {
@@ -4752,4 +4761,6 @@ button.prev, button.next {
 
 .prev { left: -100px; }   /* Move left button further out */
 .next { right: -100px; }  /* Move right button further out */
+
+
 
