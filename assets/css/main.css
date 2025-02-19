@@ -4720,9 +4720,10 @@ input, select, textarea {
     width: 100%;
     overflow: hidden;
     position: relative;
-    min-height: 100px; /* Increase this if needed */
+    min-height: 120px; /* Adjust this if needed */
     display: flex;
-    align-items: center; /* Ensures items are vertically aligned */
+    align-items: center;
+    justify-content: center;
 }
 
 .news-item {
