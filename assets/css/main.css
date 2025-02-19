@@ -4744,8 +4744,6 @@ input, select, textarea {
     min-height: auto;
 }
 
-
-
 .news-item.active {
     opacity: 1;
 }
@@ -4757,7 +4755,7 @@ button.prev, button.next {
     cursor: pointer;
     position: absolute;
     top: 60%;  /* Centers vertically */
-    transform: translateY(-50%);  
+    transform: translateY(-30%);  
     padding: 5px;
     width: 50px;  /* Increase clickable area */
     height: 50px;
