@@ -4718,7 +4718,7 @@ input, select, textarea {
 
 .news-container {
     width: 100%;
-    min-height: 200px; /* Ensures enough space */
+    min-height: auto; /* Ensures enough space */
     overflow: hidden;
     position: relative;
     display: flex;
