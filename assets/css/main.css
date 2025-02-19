@@ -4702,7 +4702,9 @@ input, select, textarea {
     background: #f9f9f9;
     border-radius: 10px;
     max-width: 600px;
-    margin: auto;
+    margin: 20px auto;  /* Reduce top & bottom margin */
+    position: relative;
+    z-index: 10;  /* Ensure it stays above other sections */
 }
 
 .news-slider {
