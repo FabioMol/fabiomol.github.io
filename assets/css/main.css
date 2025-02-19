@@ -4739,7 +4739,6 @@ input, select, textarea {
     align-items: center;
     justify-content: center; /* Centers vertically */
     text-align: center;
-    gap: 10px;
     white-space: normal;
 }
 
