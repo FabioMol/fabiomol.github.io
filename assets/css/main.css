@@ -4737,11 +4737,11 @@ input, select, textarea {
     align-items: center;  
     justify-content: center;
     text-align: center;
-    min-height: 100px;
     padding: 10px;
     gap: 10px;
     white-space: normal;  /*  Allows text wrapping */
     flex-wrap: wrap;  /* Allows items to move to the next line */
+    flex-direction: column;
 }
 
 
