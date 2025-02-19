@@ -4741,7 +4741,7 @@ input, select, textarea {
     gap: 10px;
     white-space: normal;  /*  Allows text wrapping */
     flex-wrap: wrap;  /* Allows items to move to the next line */
-    min-height: 100px;
+    min-height: 1000px;
 
 }
 
