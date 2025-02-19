@@ -3795,6 +3795,7 @@ input, select, textarea {
 			#main > .post.featured {
 				text-align: center;
 				 margin-bottom: 10px;
+				 padding-bottom: 0px;
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -4706,6 +4707,7 @@ input, select, textarea {
     margin: 10px auto;  /* Reduce top & bottom margin */
     position: relative;
     z-index: 10;  /* Ensure it stays above other sections */
+    margin-top: -20px; /* Moves news section up */
 }
 
 .news-slider {
