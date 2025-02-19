@@ -4741,8 +4741,14 @@ button.prev, button.next {
     top: 50%;  /* Centers vertically */
     transform: translateY(-50%);  
     padding: 5px;
+    width: 50px;  /* Increase clickable area */
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.prev { left: -50px; }   /* Move left button further out */
-.next { right: -50px; }  /* Move right button further out */
+
+.prev { left: -100px; }   /* Move left button further out */
+.next { right: -100px; }  /* Move right button further out */
 
