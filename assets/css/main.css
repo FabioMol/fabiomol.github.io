@@ -4738,7 +4738,7 @@ button.prev, button.next {
     font-size: 20px;
     cursor: pointer;
     position: absolute;
-    top: 50%;  /* Centers vertically */
+    top: 25%;  /* Centers vertically */
     transform: translateY(-50%);  
     padding: 5px;
     width: 50px;  /* Increase clickable area */
@@ -4747,7 +4747,6 @@ button.prev, button.next {
     align-items: center;
     justify-content: center;
 }
-
 
 .prev { left: -100px; }   /* Move left button further out */
 .next { right: -100px; }  /* Move right button further out */
