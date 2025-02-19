@@ -4720,7 +4720,8 @@ input, select, textarea {
     width: 100%;
     overflow: hidden;
     position: relative;
-    min-height: 120px; /* Adjust this if needed */
+    height: auto;
+    min-height: 800px; /* Adjust this if needed */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -4738,6 +4739,8 @@ input, select, textarea {
     flex-direction: column; /* Stack elements */
     text-align: center;
     padding: 10px;
+    gap: 10px;  /* Adds spacing between elements */
+    white-space: nowrap;  /* Prevents automatic line breaks */
 }
 
 .news-item.active {
