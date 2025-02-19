@@ -4730,6 +4730,7 @@ input, select, textarea {
 .news-item {
     position: relative; /* Allows link interaction */
     width: 80%; /* Prevents full stretch */
+    height: auto;
     max-width: 600px; /* Keeps it readable */
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
