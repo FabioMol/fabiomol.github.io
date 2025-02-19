@@ -4734,15 +4734,17 @@ input, select, textarea {
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
     min-height: 100px; /* Ensure enough space */
+
     display: flex;
-    align-items: center;  /* Align items in the same row */
+    align-items: center;  
     justify-content: center;
     text-align: center;
     padding: 10px;
-    gap: 10px;  /* Space between elements */
-    white-space: nowrap;  /* Prevent text wrapping */
-    flex-wrap: nowrap;
+    gap: 10px;
+    white-space: normal;  /*  Allows text wrapping */
+    flex-wrap: wrap;  /* Allows items to move to the next line */
 }
+
 
 
 .news-item.active {
