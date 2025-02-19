@@ -4706,7 +4706,7 @@ input, select, textarea {
     margin: 10px auto 80px;
     position: relative;
     z-index: 10;  /* Ensure it stays above other sections */
-    min-height: 200px;  /* Adjust as needed */
+    min-height: 500px;  /* Adjust as needed */
 }
 
 .news-slider {
