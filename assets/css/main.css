@@ -3794,7 +3794,6 @@ input, select, textarea {
 
 			#main > .post.featured {
 				text-align: center;
-				 margin-bottom: 10px;
 				 padding-bottom: 0px;
 			}
 
@@ -4707,7 +4706,6 @@ input, select, textarea {
     margin: 10px auto;  /* Reduce top & bottom margin */
     position: relative;
     z-index: 10;  /* Ensure it stays above other sections */
-    margin-top: -20px; /* Moves news section up */
 }
 
 .news-slider {
@@ -4741,7 +4739,7 @@ button.prev, button.next {
     font-size: 20px;
     cursor: pointer;
     position: absolute;
-    top: -5%;  /* Centers vertically */
+    top: -25%;  /* Centers vertically */
     transform: translateY(-50%);  
     padding: 5px;
     width: 50px;  /* Increase clickable area */
