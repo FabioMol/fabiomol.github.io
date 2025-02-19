@@ -4763,7 +4763,6 @@ button.prev, button.next {
     height: 50px;
     display: flex;
     align-items: center;
-    justify-content: center;
 }
 
 .prev { left: -100px; }   /* Move left button further out */
