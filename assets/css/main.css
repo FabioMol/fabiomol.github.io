@@ -4737,7 +4737,7 @@ input, select, textarea {
     align-items: center;  
     justify-content: center;
     text-align: center;
-    min-height: 400px;
+    min-height: 100px;
     padding: 10px;
     gap: 10px;
     white-space: normal;  /*  Allows text wrapping */
