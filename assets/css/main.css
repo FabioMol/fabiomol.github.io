@@ -4718,13 +4718,43 @@ input, select, textarea {
 
 .news-container {
     width: 100%;
-    height: 400px; /* Set a fixed height or increase it */
+    min-height: 400px; /* Ensures enough space */
     overflow: hidden;
     position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column; /* Stack elements correctly */
 }
+
+.news-item {
+    position: relative; /* Allows link interaction */
+    width: 80%; /* Prevents full stretch */
+    max-width: 600px; /* Keeps it readable */
+    min-height: 200px; /* Adjust if needed */
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: flex;
+    flex-direction: column; /* Stack text, link, image */
+    align-items: center;
+    justify-content: center; /* Centers vertically */
+    text-align: center;
+    padding: 20px; /* More space */
+    gap: 10px;
+    white-space: normal;
+}
+
+.news-item.active {
+    opacity: 1;
+}
+
+.news-item img {
+    display: block;
+    margin-top: 10px; /* Ensures space */
+    max-width: 100%;
+    height: auto;
+}
+
 
 .news-item {
     position: relative;
