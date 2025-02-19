@@ -4721,8 +4721,8 @@ input, select, textarea {
     overflow: hidden;
     position: relative;
     height: auto;
-    min-height: 200px; /* Adjust this if needed */
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 10px;  /* Add a bit of spacing */
