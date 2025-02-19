@@ -4699,9 +4699,7 @@ input, select, textarea {
 
 #news {
     text-align: center;
-    padding-left: 20px;
-    padding-left: 20px;
-    padding-bottom: 20px;
+    padding: 20px;
     background: #f9f9f9;
     border-radius: 10px;
     max-width: 600px;
