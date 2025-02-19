@@ -4726,16 +4726,16 @@ input, select, textarea {
     justify-content: center;
 }
 
-.news-item {
+..news-item {
     position: absolute;
     width: 100%;
     opacity: 0;
     transition: opacity 0.5s ease-in-out;
-    min-height: 100px; /* Ensure enough space for text & image */
+    min-height: 100px; /* Ensure enough space */
     display: flex;
-    align-items: center; 
-    justify-content: center; 
-    flex-direction: column; /* Stack text, link, and image vertically */
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; /* Stack elements */
     text-align: center;
     padding: 10px;
 }
@@ -4762,7 +4762,4 @@ button.prev, button.next {
 
 .prev { left: -100px; }   /* Move left button further out */
 .next { right: -100px; }  /* Move right button further out */
-
-
-
 
