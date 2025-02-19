@@ -4738,11 +4738,11 @@ button.prev, button.next {
     font-size: 20px;
     cursor: pointer;
     position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    top: 50%;  /* Centers vertically */
+    transform: translateY(-50%);  
     padding: 5px;
 }
 
-.prev { left: -30px; }
-.next { right: -30px; }
+.prev { left: -50px; }   /* Move left button further out */
+.next { right: -50px; }  /* Move right button further out */
 
