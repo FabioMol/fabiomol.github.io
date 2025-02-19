@@ -83,6 +83,39 @@
 				
 							</article>
 
+						
+						<!-- News -->
+
+<section id="news">
+    <h2>Latest News</h2>
+    <div class="news-slider">
+        <button class="prev" onclick="changeSlide(-1)">&#10094;</button>
+        <div class="news-container">
+            <div class="news-item active">📄 <strong>New Paper:</strong> Published Jan 2025!</div>
+            <div class="news-item">🎤 <strong>Talk:</strong> Conference in Hungary, Feb 2025.</div>
+            <div class="news-item">📢 <strong>Preprint:</strong> New preprint available, Feb 2025.</div>
+        </div>
+        <button class="next" onclick="changeSlide(1)">&#10095;</button>
+    </div>
+</section>
+
+<!-- JavaScript placed here -->
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll(".news-item");
+
+    function changeSlide(direction) {
+        slides[slideIndex].classList.remove("active");
+        slideIndex = (slideIndex + direction + slides.length) % slides.length;
+        slides[slideIndex].classList.add("active");
+    }
+
+    // Auto-slide every 5 seconds
+    setInterval(() => changeSlide(1), 5000);
+</script>
+
+
+						
 						<!-- Posts -->
 							<section class="posts">
 								<article>
