@@ -4726,7 +4726,7 @@ input, select, textarea {
     justify-content: center;
 }
 
-..news-item {
+.news-item {
     position: absolute;
     width: 100%;
     opacity: 0;
