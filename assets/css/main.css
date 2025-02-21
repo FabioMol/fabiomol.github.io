@@ -2629,13 +2629,19 @@ input, select, textarea {
 		.image.left.no-float { 
 			margin: 0 2rem 2rem 0;
 			top: 0.75rem;
-			 display: block;
+			  float: none !important; 
+   			 display: inline-block; 
+   			 vertical-align: middle; 
+    			max-width: 40%;
 		}
 
 		.image.right.no-float {
-			margin: 0 0 2rem 2rem;
+			margin: 0 2rem 2rem 0;
 			top: 0.75rem;
-			 display: block;
+			  float: none !important; 
+   			 display: inline-block; 
+   			 vertical-align: middle; 
+    			max-width: 40%;
 		}
 
 		.image.fit {
