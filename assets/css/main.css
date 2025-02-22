@@ -2702,6 +2702,13 @@ input, select, textarea {
 			transform: scale(1.05);
 		}
 
+.container {
+    display: flex;
+    justify-content: space-between; /* Ensures one on the left, one on the right */
+    align-items: center; /* Aligns them vertically */
+}
+
+
 /* Actions */
 
 	ul.actions {
