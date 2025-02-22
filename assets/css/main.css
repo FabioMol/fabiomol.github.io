@@ -2618,32 +2618,6 @@ input, select, textarea {
 			top: 0.75rem;
 		}
 
-		.image.left.no-float, .image.right.no-float {
-			max-width: 40%;
-		}
-
-		.image.left.no-float img, .image.right.no-float img {
-				width: 100%;
-			}
-
-		.image.left.no-float { 
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-			  float: none !important; 
-   			 display: inline-block; 
-   			 vertical-align: middle; 
-    			max-width: 40%;
-		}
-
-		.image.right.no-float {
-			margin: 0 2rem 2rem 0;
-			top: 0.75rem;
-			  float: none !important; 
-   			 display: inline-block; 
-   			 vertical-align: middle; 
-    			max-width: 40%;
-		}
-
 		.image.fit {
 			display: block;
 			margin: 2.5rem 0;
