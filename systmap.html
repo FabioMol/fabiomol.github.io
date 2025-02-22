@@ -139,50 +139,67 @@
 				<!-- Footer -->
 					<footer id="footer">
 						<section>
-							<form method="post" action="#">
-								<div class="fields">
-									<div class="field">
-										<label for="name">Name</label>
-										<input type="text" name="name" id="name" />
-									</div>
-									<div class="field">
-										<label for="email">Email</label>
-										<input type="text" name="email" id="email" />
-									</div>
-									<div class="field">
-										<label for="message">Message</label>
-										<textarea name="message" id="message" rows="3"></textarea>
-									</div>
+							<form action="https://docs.google.com/forms/d/e/1FAIpQLSfxNLs0tO1FOPS2fY_-Gazp00onXfofg4Hu-Nai_yx4v7ioTQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    							<div class="fields">
+        							<div class="field">
+           						 <label for="name">Name</label>
+          						  <input type="text" name="entry.300118985" id="name" required />
+       							 </div>
+       							 <div class="field">
+            							<label for="email">Email</label>
+         							   <input type="email" name="entry.1721426725" id="email" required />
+       							 </div>
+      							  <div class="field">
+          							  <label for="message">Message</label>
+           							 <textarea name="entry.1504736209" id="message" rows="3" required></textarea>
+     							   </div>
 								</div>
-								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
-								</ul>
+							<ul class="actions">
+    							<li><input type="submit" value="Send Message" /></li>
+							</ul>
 							</form>
+
+
+							
+							<!-- Invisible iframe to prevent redirect -->
+							<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+							<!-- JavaScript to Clear the Form After Submission -->
+							<script>
+							document.querySelector("form").addEventListener("submit", function(event) {
+ 							   setTimeout(() => {
+       								 event.target.reset(); // Clears the form after submission
+   								 }, 500); // 0.5s delay to ensure submission goes through
+							});
+							</script>
+
 						</section>
 						<section class="split contact">
 							<section class="alt">
-								<h3>Address</h3>
-								<p>1234 Somewhere Road #87257<br />
-								Nashville, TN 00000-0000</p>
-							</section>
-							<section>
-								<h3>Phone</h3>
-								<p><a href="#">(000) 000-0000</a></p>
-							</section>
-							<section>
 								<h3>Email</h3>
-								<p><a href="#">info@untitled.tld</a></p>
+								<p><a href="#">fabio.mologni@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Address</h3>
+								<p>Department of Botany and Biodiversity Research
+									University of Vienna
+									Rennweg 14, 1030 Vienna, Austria</p>
+							</section>
+							<section>
+								<h3>Lab</h3>
+								<p><a href="https://bioinvasions.univie.ac.at/news/division-group-retreat-in-weissenkirchen-in-wachau-2/">Division of BioInvasions,
+Global Change & Macroecology</a></p>
 							</section>
 							<section>
 								<h3>Social</h3>
-								<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/fabio-mologni/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+								<ul class="icons alt">
+<li><a href="https://www.linkedin.com/in/fabio-mologni/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
 		                			<li><a href="https://scholar.google.co.nz/citations?user=6Oz0soAAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
   							<li><a href="https://www.researchgate.net/profile/Fabio-Mologni" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
                                                         <li><a href="https://www.inaturalist.org/people/fabiomologni" target="_blank" class="icon brands fa-envira"><span class="label">iNaturalist</span></a></li>
 							<li><a href="https://orcid.org/0000-0003-4750-9974" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
 							<li><a href="https://github.com/FabioMol" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						                </ul>
+								</ul>
 							</section>
 						</section>
 					</footer>
