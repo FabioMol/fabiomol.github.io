@@ -1,0 +1,226 @@
+
+
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		
+	<title>Systematic</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EVEP2FDC2"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+ 	 gtag('js', new Date());
+
+  	gtag('config', 'G-8EVEP2FDC2');
+	</script>
+
+				<style>
+    .responsive-img {
+        width: 80%; /* Default size for large screens */
+        max-width: 800px; /* Prevents it from getting too big */
+        display: block;
+        margin: auto;
+    }
+
+    @media (max-width: 768px) { /* Adjust for smaller screens */
+        .responsive-img {
+            width: 95%; /* Increases size for phones */
+            max-width: none; /* Allows it to scale freely */
+        }
+    }
+</style>
+
+     	</head>
+	
+	<body class="is-preload">
+
+
+		
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Research</a></li>
+							<li><a href="teaching.html">Teaching</a></li>
+							<li><a href="publication.html">Publications</a></li>
+							<li><a href="partners.html">Network</a></li>
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/fabio-mologni/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		                			<li><a href="https://scholar.google.co.nz/citations?user=6Oz0soAAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+  							<li><a href="https://www.researchgate.net/profile/Fabio-Mologni" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+                                                        <li><a href="https://www.inaturalist.org/people/fabiomologni" target="_blank" class="icon brands fa-envira"><span class="label">iNaturalist</span></a></li>
+							<li><a href="https://orcid.org/0000-0003-4750-9974" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+							<li><a href="https://github.com/FabioMol" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav> 
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2>Systematic mapping of the evidence on the impacts of invasive plant species</h2>
+									<p>In this project, we aim to systematically compile and map evidence on the individual and cumulative impacts 
+										of invasive plant species. We first developed a reproducible protocol to compile the available evidence systematically, 
+										which we are now applying to a set of plant species invasive to foreshore and riparian ecosystems in British Columbia.</p>
+								</header>
+								<div class="image main"><img src="images/kananaskis.jpg" class="responsive-img" alt="A lake in the Kananaskis, Canada" /></div>	
+								
+								<p>
+								<span class="image right">
+									<a href="https://environmentalevidencejournal.biomedcentral.com/articles/10.1186/s13750-023-00320-3" target="_blank">
+        								<img src="images/mologni-2023.png" alt="The front page of our protocol" />
+							        </a></span>
+								Invasive species are one of the main threats to biodiversity. However, the impacts of invasive species are often investigated in isolation, 
+								even though one invasive species might increase or mitigate the impacts of others (i.e. cumulative impacts). 
+								Although cumulative impacts have long been studied within other environmental contexts, 
+								research on the cumulative impacts of invasive species is comparatively scarce. 
+								</p>
+								<h2>Goals</h2>
+									
+								<p>
+									(1) Develop a reproducible protocol to systematically 
+									compiling the evidence on the individual and cumulative impacts of plant invasive species.
+								</p>
+								<br>	
+									<ul class=" actions special">
+									<li><a href="https://environmentalevidencejournal.biomedcentral.com/articles/10.1186/s13750-023-00320-3" class="button">See the protocol!</a></li>	
+									</ul>
+								<br>
+									<p>(2) Apply and test this protocol to systematically map the individual and cumulative impacts of 9 plant 
+									species invasive to foreshore and riparian ecosystems in British Columbia.<br/>
+									<br>
+									<i>Please note that the results below are preliminary and subject to change. Open in a new tab for a high-resolution image.</i></p>
+								
+								<div class="container">
+  									<div class="image left"><img src="images/2024.08.21 NEOBIOTA poster-FINAL.jpg" alt="The poster presented at Neobiota 2024" /></div>
+    									<div class="image right"><img src="images/2024.08.21 NEOBIOTA poster-SUPPLEMENTARY.jpg" alt="The supplementary material for the poster presented at Neobiota 2024" /></div>
+                                                                </div>
+								</section>
+								
+											<!-- Post -->
+							<section class="post">
+							<h2 style="text-align: center;">Publications</h2>
+								<ul class="csl-bib-body">
+  							<li><b>Mologni, F.</b>, &#38; Pither, J. (2024). Assessing Transparency and Reproducibility in Invasion Science. </i>EcoEvoRxiv</i>. DOI: <a href="#">https://doi.org/10.32942/X29928</a></li>
+  							<li><b>Mologni, F.</b>, Moffat, C. E., &#38; Pither, J. (2023). Collating existing evidence on cumulative impacts of invasive plant species in riparian ecosystems of British Columbia, Canada: a systematic map protocol. <i>Environmental Evidence</i>, <i>12</i>(1), 31. DOI: <a href="#">https://doi.org/10.1186/s13750-023-00320-3</a></li> 
+								</ul>
+								<br>
+								<!-- Blockquote #3-->
+							<blockquote>This research was made possible through the invaluable support of:</blockquote>
+								
+								<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-4"><span class="image fit"><img src="images/ubc.jpeg" alt="Logo of the University of British Columbia" style="width: 80%; height: auto;"/></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/aafc.jpeg" alt="Logo of Agriculture and Agri-Food Canada" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/mof.png" alt="Logo of the Ministry of Forests - British Columbia" /></span></div>
+										</div>
+							</section>
+						</section>
+						</div>
+
+
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form action="https://docs.google.com/forms/d/e/1FAIpQLSfxNLs0tO1FOPS2fY_-Gazp00onXfofg4Hu-Nai_yx4v7ioTQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    							<div class="fields">
+        							<div class="field">
+           						 <label for="name">Name</label>
+          						  <input type="text" name="entry.300118985" id="name" required />
+       							 </div>
+       							 <div class="field">
+            							<label for="email">Email</label>
+         							   <input type="email" name="entry.1721426725" id="email" required />
+       							 </div>
+      							  <div class="field">
+          							  <label for="message">Message</label>
+           							 <textarea name="entry.1504736209" id="message" rows="3" required></textarea>
+     							   </div>
+								</div>
+							<ul class="actions">
+    							<li><input type="submit" value="Send Message" /></li>
+							</ul>
+							</form>
+
+
+							
+							<!-- Invisible iframe to prevent redirect -->
+							<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+							<!-- JavaScript to Clear the Form After Submission -->
+							<script>
+							document.querySelector("form").addEventListener("submit", function(event) {
+ 							   setTimeout(() => {
+       								 event.target.reset(); // Clears the form after submission
+   								 }, 500); // 0.5s delay to ensure submission goes through
+							});
+							</script>
+
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Email</h3>
+								<p><a href="#">fabio.mologni@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Address</h3>
+								<p>Department of Botany and Biodiversity Research
+									University of Vienna
+									Rennweg 14, 1030 Vienna, Austria</p>
+							</section>
+							<section>
+								<h3>Lab</h3>
+								<p><a href="https://bioinvasions.univie.ac.at/news/division-group-retreat-in-weissenkirchen-in-wachau-2/">Division of BioInvasions,
+Global Change & Macroecology</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+<li><a href="https://www.linkedin.com/in/fabio-mologni/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		                			<li><a href="https://scholar.google.co.nz/citations?user=6Oz0soAAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+  							<li><a href="https://www.researchgate.net/profile/Fabio-Mologni" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+                                                        <li><a href="https://www.inaturalist.org/people/fabiomologni" target="_blank" class="icon brands fa-envira"><span class="label">iNaturalist</span></a></li>
+							<li><a href="https://orcid.org/0000-0003-4750-9974" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+							<li><a href="https://github.com/FabioMol" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Fabio Mologni</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
