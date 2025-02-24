@@ -1,0 +1,226 @@
+
+
+
+<!DOCTYPE HTML>
+
+<html>
+	
+	<head>
+		
+	<title>Plant Invasions on northern Aotearoa New Zealand Offshore Islands</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
+		<!-- Google tag (gtag.js) -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EVEP2FDC2"></script>
+	<script>
+ 	 window.dataLayer = window.dataLayer || [];
+  	function gtag(){dataLayer.push(arguments);}
+ 	 gtag('js', new Date());
+
+  	gtag('config', 'G-8EVEP2FDC2');
+	</script>
+
+				<style>
+    .responsive-img {
+        width: 80%; /* Default size for large screens */
+        max-width: 800px; /* Prevents it from getting too big */
+        display: block;
+        margin: auto;
+    }
+
+    @media (max-width: 768px) { /* Adjust for smaller screens */
+        .responsive-img {
+            width: 95%; /* Increases size for phones */
+            max-width: none; /* Allows it to scale freely */
+        }
+    }
+</style>
+
+     	</head>
+	
+	<body class="is-preload">
+
+
+		
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">Research</a></li>
+							<li><a href="teaching.html">Teaching</a></li>
+							<li><a href="publication.html">Publications</a></li>
+							<li><a href="partners.html">Network</a></li>
+
+						</ul>
+						<ul class="icons">
+							<li><a href="https://www.linkedin.com/in/fabio-mologni/" target="_blank" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		                			<li><a href="https://scholar.google.co.nz/citations?user=6Oz0soAAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+  							<li><a href="https://www.researchgate.net/profile/Fabio-Mologni" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+                                                        <li><a href="https://www.inaturalist.org/people/fabiomologni" target="_blank" class="icon brands fa-envira"><span class="label">iNaturalist</span></a></li>
+							<li><a href="https://orcid.org/0000-0003-4750-9974" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+							<li><a href="https://github.com/FabioMol" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+						</ul>
+					</nav> 
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<section class="post">
+								<header class="major">
+									<h2>Plant Invasions on northern	Aotearoa New Zealand offshore islands</h2>
+									<p>Investigating the distribution of native and non-native plant species on islands and the interplay between plant traits, 
+										life histories, and island characteristics. 
+										The goal is to inform conservation bodies by providing effective management strategies.</p>
+								</header>
+								<div class="image main"><img src="images/DSC_0088.jpg" class="responsive-img" alt="Island offshore the coast of New Zealand" /></div>	
+								
+								<p>
+								<span class="image right">
+        								<img src="images/0. map.png" alt="Map of the offshore islands part of this projects" /></span>
+								Although islands make up only a small fraction of Earth's land surface, they contain a disproportionately large share of global biodiversity.
+								Unfortunately, they also experience high levels of invasion by non-native species.
+								In this project, we aim to explore the distribution of native and non-native plant species on 264 islands
+								offshore northern Aotearoa New Zealand to help conservation bodies make informed management decisions. 
+								</p>
+								<h2>Key Findings</h2>
+									
+								<p>
+									(1) There are subtle, yet distinctive, differences in the distribution of native and non-native species on
+									Aotearoa New Zealand offshore islands. Invasive plant species prefer larger, less isolated, less exposed islands located closer to urban areas.
+									<br/>
+									<br/>
+									(2) These differences are often determined by plant traits. For instance, grasses tend to be distributed more
+									similarly to native species compared to woody species.
+									<br/>
+									<br/>
+									(3) However, the key factor shaping plant invasions on Aotearoa New Zealand islands is naturalization time. 
+									The earlier a species naturalized, the greater the number of islands it occupies. 
+									<br/></p>
+
+								<ul class=" actions special">
+									<li><a href="https://onlinelibrary.wiley.com/doi/10.1111/jbi.14825" class="button">Latest research</a></li>	
+									</ul>
+							
+								</section>
+								
+											<!-- Post -->
+							<section class="post">
+							<h2 style="text-align: center;">Publications</h2>
+								<ul class="csl-bib-body">
+  <li><b>Mologni, F.</b>, Bellingham, P. J., Cameron, E. K., Wright, A. E., &#38; Wang, Y. (2025). Integrating Phylogeny and Functional Traits into Evaluations of Nestedness in Island Floras. </i>EcoEvoRxiv.</i> DOI: <a href="https://doi.org/10.32942/X2CK7J" target="_blank">https://doi.org/10.32942/X2CK7J</a></li>
+  <li><b>Mologni, F.</b>, Bellingham, P. J., Cameron, E. K., &#38; Wright, A. E. (2024). Time since first naturalization is key to explaining non-native plant invasions on islands. <i>Journal of Biogeography</i>, <i>51</i>(8), 1340-1350. DOI: <a href="https://doi.org/10.1111/jbi.14825" target="_blank">https://doi.org/10.1111/jbi.14825</a></li>
+  <li><b>Mologni, F.</b> (2022). Different levels of disturbance influence the distributional patterns of native but not exotic plant species on New Zealand small islands. <i>Frontiers of Biogeography</i>, <i>14</i>(2). DOI: <a href="https://doi.org/10.21425/F5FBG54598" target="_blank">https://doi.org/10.21425/F5FBG54598</a></li>
+  <li><b>Mologni, F.</b>, Bellingham, P. J., Cameron, E. K., Dinh, K., Wright, A. E., &#38; Burns, K. C. (2022). Functional traits explain non-native plant species richness and occupancy on northern New Zealand islands. <i>Biological Invasions</i>, <i>24</i>(7), 2135–2154. DOI: <a href="https://doi.org/10.1007/s10530-022-02762-1" target="_blank">https://doi.org/10.1007/s10530-022-02762-1</a></li>
+  <li><b>Mologni, F.</b>, Bellingham, P. J., Tjørve, E., Cameron, E. K., Wright, A. E., &#38; Burns, K. C. (2021). Similar yet distinct distributional patterns characterize native and exotic plant species richness across northern New Zealand islands. <i>Journal of Biogeography</i>, <i>48</i>(7), 1731–1745. DOI: <a href="https://doi.org/10.1111/jbi.14110" target="_blank">https://doi.org/10.1111/jbi.14110</a></li>
+								</ul>
+								<br>
+								<!-- Blockquote #3-->
+							<blockquote>This research was made possible through the invaluable support of:</blockquote>
+								
+								<div class="box alt">
+										<div class="row gtr-50 gtr-uniform">
+											<div class="col-6"><span class="image fit"><img src="images/Picture1.png" alt="Logo of Te Herenga Waka - Victoria University of Wellington" style="width: 60%; height: auto;" /></span></div>
+											<div class="col-6"><span class="image fit"><img src="images/landcare.png" alt="Logo of Manaaki Whenua - Landcare Research" style="width: 70%; height: auto;"/></span></div>
+										</div>
+							</section>
+						</section>
+						</div>
+
+
+				
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<form action="https://docs.google.com/forms/d/e/1FAIpQLSfxNLs0tO1FOPS2fY_-Gazp00onXfofg4Hu-Nai_yx4v7ioTQ/formResponse" method="POST" target="hidden_iframe" onsubmit="submitted=true;">
+    							<div class="fields">
+        							<div class="field">
+           						 <label for="name">Name</label>
+          						  <input type="text" name="entry.300118985" id="name" required />
+       							 </div>
+       							 <div class="field">
+            							<label for="email">Email</label>
+         							   <input type="email" name="entry.1721426725" id="email" required />
+       							 </div>
+      							  <div class="field">
+          							  <label for="message">Message</label>
+           							 <textarea name="entry.1504736209" id="message" rows="3" required></textarea>
+     							   </div>
+								</div>
+							<ul class="actions">
+    							<li><input type="submit" value="Send Message" /></li>
+							</ul>
+							</form>
+
+
+							
+							<!-- Invisible iframe to prevent redirect -->
+							<iframe name="hidden_iframe" style="display:none;"></iframe>
+
+							<!-- JavaScript to Clear the Form After Submission -->
+							<script>
+							document.querySelector("form").addEventListener("submit", function(event) {
+ 							   setTimeout(() => {
+       								 event.target.reset(); // Clears the form after submission
+   								 }, 500); // 0.5s delay to ensure submission goes through
+							});
+							</script>
+
+						</section>
+						<section class="split contact">
+							<section class="alt">
+								<h3>Email</h3>
+								<p><a href="#">fabio.mologni@gmail.com</a></p>
+							</section>
+							<section>
+								<h3>Address</h3>
+								<p>Department of Botany and Biodiversity Research
+									University of Vienna
+									Rennweg 14, 1030 Vienna, Austria</p>
+							</section>
+							<section>
+								<h3>Lab</h3>
+								<p><a href="https://bioinvasions.univie.ac.at/news/division-group-retreat-in-weissenkirchen-in-wachau-2/">Division of BioInvasions,
+Global Change & Macroecology</a></p>
+							</section>
+							<section>
+								<h3>Social</h3>
+								<ul class="icons alt">
+<li><a href="https://www.linkedin.com/in/fabio-mologni/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+		                			<li><a href="https://scholar.google.co.nz/citations?user=6Oz0soAAAAAJ&hl=en" target="_blank" class="icon solid fa-graduation-cap"><span class="label">Google Scholar</span></a></li>
+  							<li><a href="https://www.researchgate.net/profile/Fabio-Mologni" target="_blank" class="icon brands fa-researchgate"><span class="label">ResearchGate</span></a></li>
+                                                        <li><a href="https://www.inaturalist.org/people/fabiomologni" target="_blank" class="icon brands fa-envira"><span class="label">iNaturalist</span></a></li>
+							<li><a href="https://orcid.org/0000-0003-4750-9974" target="_blank" class="icon brands fa-orcid"><span class="label">ORCID</span></a></li>
+							<li><a href="https://github.com/FabioMol" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+								</ul>
+							</section>
+						</section>
+					</footer>
+
+				<!-- Copyright -->
+					<div id="copyright">
+						<ul><li>&copy; Fabio Mologni</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li></ul>
+					</div>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
