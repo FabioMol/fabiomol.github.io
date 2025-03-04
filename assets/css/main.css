@@ -4702,4 +4702,6 @@ input, select, textarea {
 .fa-brands {
     font-size: 1.5em; /* Adjust size (1.5x default) */
 	margin: 0 10px; /* Adds space on both sides */
+	 border-bottom: none;
+    text-decoration: none;
 }
