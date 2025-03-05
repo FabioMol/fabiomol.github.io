@@ -4709,13 +4709,10 @@ input, select, textarea {
 /* Flourish slider */
 
 .flourish-photo-slider {
-    max-width: 100%;      /* Ensure width adjusts to container */
-    margin-bottom: 20px;  /* Add space between sliders */
-    overflow: hidden;     /* Hide overflow to avoid content spilling */
-}
-
-.flourish-embed {
-    display: block;          /* Treat the embed as a block-level element */
-    width: 100%;             /* Ensure it spans the full width of its container */
-    height: 100%;            /* Ensure it takes the full height set for the parent */
+    width: 100%;              /* Ensure the slider takes up the full width of its container */
+    margin-bottom: 20px;      /* Space between sliders if you have more than one */
+    overflow: hidden;         /* Prevent any content from spilling out */
+    display: block;           /* Ensure it behaves like a block-level element */
+    transform: scale(0.5);    /* Scale down the entire slider to 80% of its size */
+    transform-origin: top;    /* Ensures the scaling is from the top */
 }
