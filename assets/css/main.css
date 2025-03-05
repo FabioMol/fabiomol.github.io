@@ -4710,7 +4710,6 @@ input, select, textarea {
 
 .flourish-photo-slider {
     width: 100%;              /* Ensure the slider takes up the full width of its container */
-    margin-bottom: 20px;      /* Space between sliders if you have more than one */
     display: block;           /* Ensure it behaves like a block-level element */
     transform: scale(0.5);    /* Scale down the entire slider to 80% of its size */
     transform-origin: top;    /* Ensures the scaling is from the top */
