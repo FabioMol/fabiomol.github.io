@@ -4709,8 +4709,10 @@ input, select, textarea {
 /* Flourish slider */
 
 .flourish-photo-slider {
-    width: 100%;              /* Ensure the slider takes up the full width of its container */
-    display: block;           /* Ensure it behaves like a block-level element */
-    transform: scale(0.5);    /* Scale down the entire slider to 80% of its size */
-height: auto
+    width: 100%;                /* Ensure the slider takes up the full width of its container */
+    display: block;             /* Ensure it behaves like a block-level element */
+    transform: scale(0.5);      /* Scale down the entire slider to 50% of its size */
+    transform-origin: top;      /* Scale from the top, eliminating space above */
+    margin: 0;                  /* Remove any default margins */
+    height: auto;               /* Maintain the original aspect ratio by adjusting the height */
 }
