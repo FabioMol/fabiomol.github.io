@@ -4712,8 +4712,6 @@ input, select, textarea {
     width: 100%;              /* Ensure the slider takes up the full width of its container */
     display: block;           /* Ensure it behaves like a block-level element */
     transform: scale(0.5);    /* Scale down the entire slider to 80% of its size */
-    transform-origin: center; /* Scale from the center */
-    position: relative;       /* Allow position adjustments */
     top: -50%;                /* Move the element upwards to remove space above */
     bottom: -50%;             /* Move the element downwards to remove space below */
 }
