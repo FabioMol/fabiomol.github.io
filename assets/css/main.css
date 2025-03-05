@@ -4709,6 +4709,12 @@ input, select, textarea {
 /* Flourish slider */
 
 .flourish-photo-slider {
-    max-width: 500px;
-    max-height: 300px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px; /* Add space between the sliders */
+}
+
+.flourish-embed {
+    display: block; /* Ensures the embed is treated as a block-level element */
+    margin-bottom: 20px; /* Add some spacing between the sliders */
 }
