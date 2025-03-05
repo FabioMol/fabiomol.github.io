@@ -4713,3 +4713,9 @@ input, select, textarea {
     margin-bottom: 20px;  /* Add space between sliders */
     overflow: hidden;     /* Hide overflow to avoid content spilling */
 }
+
+.flourish-embed {
+    display: block;          /* Treat the embed as a block-level element */
+    width: 100%;             /* Ensure it spans the full width of its container */
+    height: 100%;            /* Ensure it takes the full height set for the parent */
+}
