@@ -4705,3 +4705,10 @@ input, select, textarea {
 	 border-bottom: none;
     text-decoration: none;
 }
+
+/* Flourish slider */
+
+.flourish-photo-slider {
+    max-width: 500px;
+    max-height: 300px;
+}
