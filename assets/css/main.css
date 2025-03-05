@@ -4710,7 +4710,6 @@ input, select, textarea {
 
 .flourish-photo-slider {
     max-width: 100%;      /* Ensure width adjusts to container */
-    height: 300px;        /* Set a fixed height for the sliders */
     margin-bottom: 20px;  /* Add space between sliders */
     overflow: hidden;     /* Hide overflow to avoid content spilling */
 }
