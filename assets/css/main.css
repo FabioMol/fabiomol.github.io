@@ -4720,5 +4720,5 @@ input, select, textarea {
 
 .flourish-photo-slider iframe,
 .flourish-photo-slider div {
-    height: 50% !important; /* Force a reduced height to match scaling */
+    height: 100% !important; /* Force a reduced height to match scaling */
 }
