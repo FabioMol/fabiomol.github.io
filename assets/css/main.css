@@ -4716,7 +4716,7 @@ input, select, textarea {
 
 .flourish-photo-slider {
     display: block;
-    height: 800; /* Set a fixed height, adjust as needed */
+    height: 200; /* Set a fixed height, adjust as needed */
     overflow: hidden;
 }
 
