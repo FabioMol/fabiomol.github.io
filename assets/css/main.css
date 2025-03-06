@@ -4708,21 +4708,25 @@ input, select, textarea {
 
 /* Flourish slider */
 
-.flourish-embed {
-    width: 100%;
-    max-width: 600px; /* Optional: Set a max width for each slider */
-    margin: 20px auto; /* Optional: Space out sliders vertically */
+/* Wrapper for flex layout */
+.flourish-wrapper {
+    display: flex;           /* Use flexbox to align sliders */
+    justify-content: space-between; /* Distribute space between them */
+    gap: 20px;               /* Add space between sliders */
+    flex-wrap: wrap;         /* Allow wrapping if the screen is too small */
 }
 
+/* Slider container */
+.flourish-embed {
+    flex: 1;                 /* Allow the sliders to share space equally */
+    max-width: 48%;          /* Limit max width to 48% */
+    height: 800px;           /* Fixed height for each slider */
+    margin: 10px 0;          /* Space between sliders */
+}
+
+/* Slider content */
 .flourish-photo-slider {
     display: block;
-    height: 800px; /* Set a fixed height, adjust as needed */
+    height: 100%;            /* Make sure it fills the container */
     overflow: hidden;
-}
-
-.flourish-wrapper {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; /* Optional: Adjust the gap between sliders */
-    flex-wrap: wrap; /* Wrap them if the screen is small */
 }
