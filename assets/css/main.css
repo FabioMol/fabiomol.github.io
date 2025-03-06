@@ -4710,13 +4710,20 @@ input, select, textarea {
 
 .flourish-wrapper {
     width: 100%;
-    overflow: hidden;
     display: flex;
-    justify-content: center; /* Center the scaled slider */
+    flex-direction: column; /* Stack sliders vertically */
+    align-items: center; /* Center them horizontally */
+    gap: 0px; /* Reduce space between them */
+    overflow: hidden;
 }
 
 .flourish-photo-slider {
-    transform: scale(0.5);
+    transform: scale(0.5); /* Shrink properly */
     transform-origin: top;
+    height: 0; /* Removes the default height */
+}
+
+.flourish-photo-slider iframe {
+    height: auto !important; /* Ensures proper aspect ratio */
 }
 
