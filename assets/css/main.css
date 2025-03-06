@@ -4717,3 +4717,8 @@ input, select, textarea {
     height: auto;
     overflow: hidden; /* Prevents excess space */
 }
+
+.flourish-photo-slider iframe {
+    width: 100% !important;
+    height: auto !important; /* Maintain aspect ratio */
+}
