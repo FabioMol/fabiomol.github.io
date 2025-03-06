@@ -4708,17 +4708,15 @@ input, select, textarea {
 
 /* Flourish slider */
 
-.flourish-photo-slider {
+.flourish-wrapper {
     width: 100%;
-    display: block;
-    transform: scale(0.5);
-    transform-origin: top;
-    margin: 0;
-    height: auto;
-    overflow: hidden; /* Prevents excess space */
+    overflow: hidden;
+    display: flex;
+    justify-content: center; /* Center the scaled slider */
 }
 
-.flourish-photo-slider iframe {
-    width: 100% !important;
-    height: auto !important; /* Maintain aspect ratio */
+.flourish-photo-slider {
+    transform: scale(0.5);
+    transform-origin: top;
 }
+
