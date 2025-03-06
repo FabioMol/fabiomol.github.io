@@ -4719,3 +4719,10 @@ input, select, textarea {
     height: 800px; /* Set a fixed height, adjust as needed */
     overflow: hidden;
 }
+
+.flourish-wrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Optional: Adjust the gap between sliders */
+    flex-wrap: wrap; /* Wrap them if the screen is small */
+}
