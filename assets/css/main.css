@@ -4733,5 +4733,5 @@ input, select, textarea {
   display: block;
   margin: 0 auto; /* Centers the element horizontally */
   max-width: 100%; /* Ensures it doesn't overflow */
-  margin-bottom: 5px; /* Removes extra space below the element */
+  margin-bottom: 50px; /* Removes extra space below the element */
 }
