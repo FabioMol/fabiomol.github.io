@@ -4706,33 +4706,18 @@ input, select, textarea {
     text-decoration: none;
 }
 
+
+
 /* Flourish slider */
-.flourish-wrapper {
-    display: flex;           /* Use flexbox to align sliders */
-    justify-content: space-between; /* Distribute space between them */
-    gap: 20px;               /* Add space between sliders */
-    flex-wrap: wrap;         /* Allow wrapping if the screen is too small */
-}
-
-
 .flourish-embed {
-    flex: 1;                 /* Allow the sliders to share space equally */
-    max-width: 48%;          /* Limit max width to 48% */
-    height: 800px;           /* Fixed height for each slider */
-    margin: 10px 0;          /* Space between sliders */
+  display: block;           /* Ensures it's a block-level element */
+  max-width: 100%;          /* Prevent overflow */
+  margin-bottom: 0;         /* Remove any extra space below */
+  padding: 0;               /* Remove any padding */
 }
 
 .flourish-photo-slider {
-    display: block;
-    height: 100%;            /* Make sure it fills the container */
-    overflow: hidden;
-}
-
-
-/* Flourish cards */
-.flourish-embed {
   display: block;
-  max-width: 100%; /* Ensures it doesn't overflow */
-  margin-bottom: 0px; /* Removes extra space below the element */
-	 display: block;
+  height: 100%;             /* Make sure it fills the container */
+  overflow: hidden;         /* Prevent content overflow */
 }
