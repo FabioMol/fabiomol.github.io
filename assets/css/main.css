@@ -4712,8 +4712,6 @@ input, select, textarea {
     justify-content: space-between; /* Distribute space between them */
     gap: 20px;               /* Add space between sliders */
     flex-wrap: wrap;         /* Allow wrapping if the screen is too small */
-    margin-bottom: -20px !important;  /* Remove extra margin below the wrapper */
-    padding: 0 !important;  /* Remove any padding in the wrapper */
 }
 
 
@@ -4722,7 +4720,6 @@ input, select, textarea {
     max-width: 48%;          /* Limit max width to 48% */
     height: 800px;           /* Fixed height for each slider */
     margin: 10px 0;          /* Space between sliders */
-    margin-bottom: 0 !important;  /* Remove any extra margin below */
 }
 
 .flourish-photo-slider {
@@ -4735,14 +4732,7 @@ input, select, textarea {
 /* Flourish cards */
 .flourish-embed {
   display: block;
-  margin: 0 auto !important; /* Centers the element horizontally */
   max-width: 100%; /* Ensures it doesn't overflow */
   margin-bottom: 0px; /* Removes extra space below the element */
 	 display: block;
-  padding: 0 !important;
-}
-
-.post, .flourish-embed {
-  margin: 0 !important;
-  padding: 0 !important;
 }
