@@ -4741,3 +4741,8 @@ input, select, textarea {
 	 display: block;
   padding: 0 !important;
 }
+
+.post, .flourish-embed {
+  margin: 0 !important;
+  padding: 0 !important;
+}
