@@ -4719,6 +4719,8 @@ input, select, textarea {
     max-width: 48%;          /* Limit max width to 48% */
     height: 800px;           /* Fixed height for each slider */
     margin: 10px 0;          /* Space between sliders */
+	  margin-bottom: -50px; /* Removes extra space below the element */
+
 }
 
 .flourish-photo-slider {
@@ -4733,7 +4735,7 @@ input, select, textarea {
   display: block;
   margin: 0 auto !important; /* Centers the element horizontally */
   max-width: 100%; /* Ensures it doesn't overflow */
-  margin-bottom: -10px; /* Removes extra space below the element */
+  margin-bottom: -50px; /* Removes extra space below the element */
 	 display: block;
   padding: 0 !important;
 }
