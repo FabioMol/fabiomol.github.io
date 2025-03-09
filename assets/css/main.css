@@ -4712,7 +4712,7 @@ input, select, textarea {
     justify-content: space-between; /* Distribute space between them */
     gap: 20px;               /* Add space between sliders */
     flex-wrap: wrap;         /* Allow wrapping if the screen is too small */
-    margin-bottom: 0 !important;  /* Remove extra margin below the wrapper */
+    margin-bottom: -20px !important;  /* Remove extra margin below the wrapper */
     padding: 0 !important;  /* Remove any padding in the wrapper */
 }
 
