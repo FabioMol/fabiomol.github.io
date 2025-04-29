@@ -231,4 +231,49 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/main.js"></script>
 
 	</body>
+
+		<!-- Filter scripts -->
+<script>
+  const filters = {
+    topic: null,
+    type: null,
+    author: null,
+  };
+
+  const filterButtons = document.querySelectorAll('#filters button');
+  const papers = document.querySelectorAll('.paper');
+
+  filterButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      const filterType = button.getAttribute('data-filter-topic') ? 'topic' :
+                         button.getAttribute('data-filter-type') ? 'type' :
+                         button.getAttribute('data-filter-author') ? 'author' : null;
+
+      const filterValue = button.dataset[`filter${filterType.charAt(0).toUpperCase() + filterType.slice(1)}`];
+
+      // Toggle filter
+      filters[filterType] = (filters[filterType] === filterValue) ? null : filterValue;
+
+      // Highlight active buttons
+      filterButtons.forEach(btn => {
+        const type = btn.getAttribute('data-filter-topic') ? 'topic' :
+                     btn.getAttribute('data-filter-type') ? 'type' :
+                     btn.getAttribute('data-filter-author') ? 'author' : null;
+
+        const val = btn.dataset[`filter${type.charAt(0).toUpperCase() + type.slice(1)}`];
+        btn.classList.toggle('active', filters[type] === val);
+      });
+
+      // Filter logic
+      papers.forEach(paper => {
+        const matchesTopic = !filters.topic || paper.dataset.topic.split(' ').includes(filters.topic);
+        const matchesType = !filters.type || paper.dataset.type === filters.type;
+        const matchesAuthor = !filters.author || paper.dataset.author === filters.author;
+
+        paper.style.display = (matchesTopic && matchesType && matchesAuthor) ? 'block' : 'none';
+      });
+    });
+  });
+</script>
+	
 </html>
