@@ -4758,8 +4758,8 @@ input, select, textarea {
 
 .publication-filter #filters button.active {
   background-color: #333;
-  color: #fff;
-  border-color: #fff;
+  color: #fff !important;
+  border-color: #fff !important;
 }
 
 .publication-filter .paper {
