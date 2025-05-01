@@ -4817,10 +4817,3 @@ input, select, textarea {
 .publication-filter .filter-row > div {
   text-align: center;
 }
-
-@media (max-width: 768px) { 
-  .publication-filter .major h1 {
-    text-align: center !important; /* Keep it centered on mobile */
-    font-size: 1.5em !important; /* Slightly smaller font on mobile */
-  }
-}
