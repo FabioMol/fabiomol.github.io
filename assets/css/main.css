@@ -4808,13 +4808,12 @@ input, select, textarea {
 }
 
 .publication-filter .filter-row {
-  display: flex !important;
-  justify-content: center !important;
-  gap: .2rem;
-  flex-wrap: wrap; /* responsive for small screens */
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;              /* gives buttons some breathing room */
+  flex-wrap: wrap;
   align-items: flex-start;
-  background-color: lightyellow; /* test only */
-  border: 2px dashed red;        /* test only */
+  padding: 1rem 0;
 }
 
 .publication-filter .filter-row > div {
