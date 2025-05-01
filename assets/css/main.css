@@ -4817,6 +4817,8 @@ input, select, textarea {
 }
 
 .publication-filter .filter-row > div {
-  flex: 1;
   min-width: 200px;
+  max-width: 300px;
+  margin: 0 0.5rem;
+  text-align: center;
 }
