@@ -4809,7 +4809,7 @@ input, select, textarea {
 
 .publication-filter .filter-row {
   display: flex;
-  gap: 2rem;
+  gap: .2rem;
   flex-wrap: wrap; /* responsive for small screens */
   align-items: flex-start;
 }
