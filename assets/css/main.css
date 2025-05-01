@@ -4749,6 +4749,7 @@ input, select, textarea {
   cursor: pointer;
   font-size: 0.9rem;
   transition: all 0.2s ease-in-out;
+  line-height: 1.2;
 }
 
 .publication-filter #filters button:hover {
