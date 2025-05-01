@@ -4819,14 +4819,14 @@ input, select, textarea {
 }
 
 .publication-filter .major h1 {
-  text-align: center;
-  font-size: 1.5em;
-  margin: 0 auto;
+  text-align: center; /* Center the title by default */
+  font-size: 2.5em;
+  margin: 0; /* No margin issues */
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) { 
   .publication-filter .major h1 {
-    text-align: left;
-    font-size: 2.5em;
+    text-align: center; /* Keep it centered on mobile */
+    font-size: 1.5em; /* Slightly smaller font on mobile */
   }
 }
