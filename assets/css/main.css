@@ -4817,3 +4817,26 @@ input, select, textarea {
 .publication-filter .filter-row > div {
   text-align: center;
 }
+
+@media screen and (max-width: 1280px) {
+    .publication-filter {
+        padding: 6rem 4rem 4rem 4rem;
+    }
+}
+
+@media screen and (max-width: 736px) {
+    .publication-filter {
+        padding: 4rem 2rem 2rem 2rem;
+    }
+
+    .publication-filter header.major > .date {
+        margin-top: -1rem;
+        margin-bottom: 2rem;
+    }
+
+    .publication-filter header.major > h1, .publication-filter header.major h2 {
+        font-size: 2.5rem;
+        line-height: 1.2;
+        margin: 0 0 1.5rem 0;
+    }
+}
