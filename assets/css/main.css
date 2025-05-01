@@ -4810,7 +4810,7 @@ input, select, textarea {
 .publication-filter .filter-row {
   display: flex;
   justify-content: center;
-  gap: 0.75rem;              /* gives buttons some breathing room */
+  gap: 2rem;              /* gives buttons some breathing room */
   flex-wrap: wrap;
   align-items: flex-start;
   padding: 1rem 0;
