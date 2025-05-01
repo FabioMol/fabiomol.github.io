@@ -4807,3 +4807,14 @@ input, select, textarea {
   background-color: #f8d7da;
 }
 
+.publication-filter .filter-row {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap; /* responsive for small screens */
+  align-items: flex-start;
+}
+
+.publication-filter .filter-row > div {
+  flex: 1;
+  min-width: 200px;
+}
