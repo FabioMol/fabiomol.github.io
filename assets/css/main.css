@@ -4813,6 +4813,8 @@ input, select, textarea {
   gap: .2rem;
   flex-wrap: wrap; /* responsive for small screens */
   align-items: flex-start;
+  background-color: lightyellow; /* test only */
+  border: 2px dashed red;        /* test only */
 }
 
 .publication-filter .filter-row > div {
