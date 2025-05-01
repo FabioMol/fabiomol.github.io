@@ -4871,3 +4871,16 @@ body.dark-mode button.active {
   background-color: #bbb;
   color: #333;
 }
+
+#dark-mode-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 1000;
+  padding: 0.5rem 1rem;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
