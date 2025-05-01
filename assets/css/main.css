@@ -4808,10 +4808,10 @@ input, select, textarea {
 }
 
 .publication-filter .filter-row {
-  display: flex;
+  display: flex !important;
+  justify-content: center !important;
   gap: .2rem;
   flex-wrap: wrap; /* responsive for small screens */
-  justify-content: center;
   align-items: flex-start;
 }
 
