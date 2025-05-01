@@ -257,6 +257,14 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+		<!-- Dark mode toggle scripts -->
+		
+<script>
+  document.getElementById('dark-mode-toggle').addEventListener('click', function () {
+    document.body.classList.toggle('dark-mode');
+  });
+</script>
+		
 	</body>
 
 		<!-- Filter scripts -->
@@ -305,11 +313,4 @@ Global Change & Macroecology</a></p>
 	
 </html>
 
-<!-- Dark mode toggle scripts -->
-
-const toggleButton = document.getElementById('dark-mode-toggle');
-
-toggleButton.addEventListener('click', () => {
-  document.body.classList.toggle('dark-mode');
-});
 
