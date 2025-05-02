@@ -194,14 +194,14 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-<!-- Masonry Initialization Script (Here, at the bottom before </body>) -->
-    <script>
-        // Initialize Masonry after the DOM is loaded
+		<!-- Masonry -->
+	    <script>
         var grid = document.querySelector('.grid');
         var masonry = new Masonry(grid, {
             itemSelector: '.grid-item',
-            columnWidth: '.grid-item',
-            percentPosition: true
+            columnWidth: '.grid-item',  // Automatically size columns based on items
+            percentPosition: true,
+            fitWidth: true  // Ensures grid fits within the page width
         });
     </script>
 		
