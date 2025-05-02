@@ -1,7 +1,3 @@
-
-
-
-
 <!DOCTYPE HTML>
 <!--
 	Massively by HTML5 UP
@@ -172,5 +168,16 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
+<!-- Masonry Initialization Script (Here, at the bottom before </body>) -->
+    <script>
+        // Initialize Masonry after the DOM is loaded
+        var grid = document.querySelector('.grid');
+        var masonry = new Masonry(grid, {
+            itemSelector: '.grid-item',
+            columnWidth: '.grid-item',
+            percentPosition: true
+        });
+    </script>
+		
 	</body>
 </html>
