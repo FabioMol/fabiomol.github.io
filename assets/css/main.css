@@ -4840,3 +4840,20 @@ input, select, textarea {
         margin: 0 0 1.5rem 0;
     }
 }
+
+
+/* Banner Image */
+.image.banner {
+    display: block;
+    width: 100%;
+    height: 200px; /* You can adjust the height to whatever you need */
+    overflow: hidden;
+    position: relative;
+}
+
+.image.banner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensures the image covers the full width and trims top/bottom */
+    object-position: center; /* Ensures the image is centered within the container */
+}
