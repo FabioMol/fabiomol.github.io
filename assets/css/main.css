@@ -4861,19 +4861,31 @@ input, select, textarea {
 
 /* Masonry */
 
+/* Ensure the grid container is set to flex layout */
 .grid {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
 }
 
+/* Make sure each grid item is properly sized */
 .grid-item {
-  width: 200px; /* You can adjust the width or use percentage for responsiveness */
-  margin-bottom: 16px;
+    width: 300px; /* Adjust to your preferred size */
+    margin-bottom: 16px;
+    box-sizing: border-box;
 }
 
-.caption {
-  font-size: 14px;
-  text-align: center;
-  margin-top: 8px;
+/* Make images responsive and fit their container */
+.grid-item img {
+    width: 100%;  /* Let the image take full width of its container */
+    height: auto; /* Keep aspect ratio */
+    display: block; /* Prevent images from being inline-block (which can add extra space) */
 }
+
+/* Caption style */
+.caption {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 8px;
+}
+
