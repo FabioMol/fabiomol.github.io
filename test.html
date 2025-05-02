@@ -12,8 +12,21 @@
 		<link rel="stylesheet" href="assets/css/main.css">
 	        <link rel="stylesheet" href="assets/css/all.min.css">		
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-		<script src="https://unpkg.com/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
 
+<script>
+  var grid = document.querySelector('.grid');
+
+  imagesLoaded(grid, function () {
+    new Masonry(grid, {
+      itemSelector: '.grid-item',
+      columnWidth: '.grid-item',
+      percentPosition: true,
+      fitWidth: true
+    });
+  });
+</script>
+		
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-8EVEP2FDC2"></script>
 	<script>
@@ -194,16 +207,5 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
 
-		<!-- Masonry -->
-	    <script>
-        var grid = document.querySelector('.grid');
-        var masonry = new Masonry(grid, {
-            itemSelector: '.grid-item',
-            columnWidth: '.grid-item',  // Automatically size columns based on items
-            percentPosition: true,
-            fitWidth: true  // Ensures grid fits within the page width
-        });
-    </script>
-		
 	</body>
 </html>
