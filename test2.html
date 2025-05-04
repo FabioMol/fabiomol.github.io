@@ -182,6 +182,16 @@ function showSlide(index) {
 
 showSlide(current);
 
+window.addEventListener('wheel', (e) => {
+  if (e.deltaY > 0 && current < slides.length - 1) {
+    current++;
+    showSlide(current);
+  } else if (e.deltaY < 0 && current > 0) {
+    current--;
+    showSlide(current);
+  }
+});
+
 
 
 	</body>
