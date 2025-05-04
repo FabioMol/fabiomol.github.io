@@ -169,6 +169,8 @@ Global Change & Macroecology</a></p>
 			<script src="assets/js/main.js"></script>
 
 <!-- Scroller -->
+<script src="script.js"></script>
+
 const slides = document.querySelectorAll('.slide');
 let current = 0;
 
@@ -180,15 +182,6 @@ function showSlide(index) {
 
 showSlide(current);
 
-window.addEventListener('wheel', (e) => {
-  if (e.deltaY > 0 && current < slides.length - 1) {
-    current++;
-    showSlide(current);
-  } else if (e.deltaY < 0 && current > 0) {
-    current--;
-    showSlide(current);
-  }
-});
 
 
 	</body>
