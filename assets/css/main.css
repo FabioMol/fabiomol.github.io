@@ -4889,3 +4889,41 @@ input, select, textarea {
     margin-top: 8px;
 }
 
+
+
+/* Scroller */
+.scroller {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.slide {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #111;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.slide img {
+  max-height: 60vh;
+  width: auto;
+  margin-bottom: 20px;
+}
+
+.slide.active {
+  opacity: 1;
+  z-index: 1;
+}
