@@ -2,7 +2,9 @@
 
 This repository contains the source code and content for my academic website.
 
-**License** | [![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](https://creativecommons.org/licenses/by/4.0/)
+**License** 
+
+[![License](https://img.shields.io/badge/license-CC%20BY%204.0-blue)](https://creativecommons.org/licenses/by/4.0/)
 
 ## Credits
 
